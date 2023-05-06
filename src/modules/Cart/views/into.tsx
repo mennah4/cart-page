@@ -1,7 +1,7 @@
 export const Into = () => {
   return (
     <>
-      <div>
+      <div className="w-full">
         <p className="font-bold text-lg">
           Welcome, Mena
         </p>

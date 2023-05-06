@@ -2,7 +2,6 @@ export default function Sidebar() {
 
   return (
     <>
-      <div className="col-span-1">
         <aside className="fixed top-0 left-0 z-40 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
           <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50">
             <ul className="space-y-2 font-medium">
@@ -44,7 +43,6 @@ export default function Sidebar() {
             </ul>
           </div>
         </aside>
-      </div>
     </>
   )
 
