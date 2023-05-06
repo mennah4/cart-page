@@ -2,8 +2,8 @@ export default function Sidebar() {
 
   return (
     <>
-        <aside className="fixed top-0 left-0 z-40 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
-          <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50">
+        <aside className="w-16 bg-white fixed top-0 left-0 z-40 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+          <div className="h-full px-3 py-4 overflow-y-auto bg-white">
             <ul className="space-y-2 font-medium">
               <li>
                 <a href="#" className="flex items-center p-2  rounded-lg  hover:bg-orange-100 ">

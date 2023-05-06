@@ -8,15 +8,11 @@ import Sidebar from './components/Sidebar';
 function App() {
   return (
     <Provider store={store}>
-      {/* <div classNameName="grid-cols-[minmax(160px,320px),minmax(320px,1fr),minmax(160px,320px)]">
-        <Sidebar />
-        <Cart />
-      </div> */}
-      <div className="grid grid-cols-1 md:grid-cols-10 gap-4">
-        <div >
+      <div className="flex">
+        <div className='bg-white'>
           <Sidebar />
         </div>
-        <div className="bg-white col-span-1 md:col-span-9">
+        <div className="flex-1 ml-16 bg-gray-100">
           <Cart />
         </div>
       </div>
