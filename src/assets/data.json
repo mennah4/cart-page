@@ -1,27 +1,47 @@
+
 [
   {
     "id": "1",
     "name": "Plain Croissant",
-    "description": "Classic flaky butter croissant",
+    "description": "Classic flaky butter croissant filled with chocolate and dusted with powdered sugar",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5w5GHVgYsOeLS0uzEU__2WPD9igNhKghLlg&usqp=CAU",
     "price": 2.50
   },
   {
     "id": "2",
     "name": "Almond Croissant",
     "description": "Croissant filled with almond cream and topped with sliced almonds",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5w5GHVgYsOeLS0uzEU__2WPD9igNhKghLlg&usqp=CAU",
     "price": 3.50
   },
   {
     "id": "3",
     "name": "Chocolate Croissant",
     "description": "Croissant filled with chocolate and dusted with powdered sugar",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5w5GHVgYsOeLS0uzEU__2WPD9igNhKghLlg&usqp=CAU",
     "price": 3.00
   },
   {
     "id": "4",
     "name": "Ham and Cheese Croissant",
     "description": "Croissant filled with ham and melted cheese",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5w5GHVgYsOeLS0uzEU__2WPD9igNhKghLlg&usqp=CAU",
     "price": 4.00
+  },
+  {
+    "id": "5",
+    "name": "Spinach and Feta Croissant",
+    "description": "A delicious croissant filled with sautéed spinach and crumbled feta cheese.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5w5GHVgYsOeLS0uzEU__2WPD9igNhKghLlg&usqp=CAU",
+    "price": 4.99
+  },
+  {
+    "id": "6",
+    "name": "Raspberry Croissant",
+    "description": "A sweet croissant filled with raspberry jam and dusted with powdered sugar.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5w5GHVgYsOeLS0uzEU__2WPD9igNhKghLlg&usqp=CAU",
+    "price": 3.99
   }
+
 ]
 
