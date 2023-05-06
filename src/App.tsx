@@ -8,7 +8,7 @@ import Sidebar from './components/Sidebar';
 function App() {
   return (
     <Provider store={store}>
-      <div className="grid gap-3 p-3 grid-cols-[minmax(160px,320px),minmax(320px,1fr),minmax(160px,320px)]">
+      <div className="grid grid-cols-10 gap-4">
         <Sidebar />
         <Cart />
       </div>
