@@ -2,7 +2,7 @@ export const CartSummary = () => {
   return (
     <>
       <div className="flex items-center px-2 py-5 rounded-lg">
-        <div className="flex w-4/5 rounded-lg">
+        <div className="flex w-full rounded-lg">
           <div className="w-36">
             <img className="h-24 rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5w5GHVgYsOeLS0uzEU__2WPD9igNhKghLlg&usqp=CAU" alt="" />
           </div>
@@ -22,12 +22,12 @@ export const CartSummary = () => {
         </div>
       </div>
       <div className="flex items-center px-2 py-5 rounded-lg">
-        <div className="flex w-4/5 rounded-lg">
+        <div className="flex w-full rounded-lg">
           <div className="w-36">
             <img className="h-24 rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5w5GHVgYsOeLS0uzEU__2WPD9igNhKghLlg&usqp=CAU" alt="" />
           </div>
           <div className="flex flex-col justify-between flex-grow">
-            <div className="py-2 flex w-full justify-between">
+            <div className="py-2 flex justify-between">
               <p className="font-bold text-lg line-clamp-2">Plain Croissant</p>
             </div>
             <div className="-pt-3 flex justify-between items-center">
