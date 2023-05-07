@@ -8,6 +8,7 @@ import CartItem from "./views/item";
 import SettingsIcon from "../../assets/icons/settings";
 import { CartSummary } from "./views/summary";
 import { PaymentButton } from "./views/payment";
+import { PaymentTotal } from "./views/total";
 
 const Cart = () => {
   const cartItems = useSelector((store: any) => store['CART_STORE_NAME'].items);
@@ -37,6 +38,7 @@ const Cart = () => {
         </div>
         <div className="mt-3">
               <CartSummary />
+              <PaymentTotal />
               <PaymentButton/>
             </div>
       </div>
